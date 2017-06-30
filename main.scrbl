@@ -162,7 +162,7 @@ Table Of Contents
  "Madrigali privati" compare una nuova figura femminile, soprannominata Volpe, che, diversamente
  da Clizia, è una donna molto più "terrestre" e sensuale.
 }
-@subsection[#:style 'hidden-number]{'(Correlativo Ogettivo)}
+@subsection[#:style 'hidden-number]{'(Correlativo Oggettivo)}
 @para{
  Montale guadagnò rapidamente una dimensione internazionale aperta anche a quegli aspetti della
  letteratura e del pensiero europei che sfuggivano al  clima italiano. Si avvicinò così alla poesia
@@ -197,10 +197,99 @@ Table Of Contents
 }
 @subsection[#:style 'hidden-number]{'(Opere)}
 @subsubsection[#:style 'hidden-number]{'(Ossi di seppia)}
+@para{
+ Pubblicato nel 1925 raccoglie pochi testi già pubblicati negli anni precedenti e numerosi
+ inediti.@linebreak{}
+ Il libro si articola in cinque sezioni: Movimenti, Ossi di seppia, Mediterraneo, Meriggi e ombre,
+ Riviere.@linebreak{}
+ Gli ossi di seppia sono resti di comuni animali marini che si trovano lungo le coste mediterranee e
+ sono scelti da Montale come simbolo di una vita ridotta a una pura essenza minerale.@linebreak{}
+ In questo libro, definito un @italic{romanzo di formazione},
+ si compie il passaggio dal mare alla terra;
+ dal felice incanto dell'infanzia, all'età adulta. Una volta compiuto il distacco dal mare e
+ dall'infanzia, la vita adulta comporta l'accettazione di uno @italic{sterile segreto}, del vuoto e
+ dell'insensatezza che si celano dietro l'illusoria trama della vita "normale".@linebreak{}
+ L'accettazione di tale @italic{sterile segreto} è per Montale, una scelta
+ morale e dev'essere compiuta
+ "senza viltà". La sua poesia è sempre attraversata da una fortissima tensione conoscitiva, da una
+ volontà determinata a ricercare ovunque una possibile verità.@linebreak{}
+ Di qui deriva anche quel @italic{delirio di nominare} di cui cui ha parlato Contini,
+ ovvero un'attenzione
+ straordinaria al paesaggio e ai suoi particolari, agli oggetti, alle cose più comuni, descritti con
+ estrema precisione analitica e lessicale.@linebreak{}
+}
 @subsubsection[#:style 'hidden-number]{'(Le occasioni)}
+@para{
+ Le occasioni fu pubblicata definitivamente nel 1940. La seconda edizione comprende 54 testi suddivisi
+ in 4 parti.@linebreak{}
+ In questa raccolta la poetica di Montale diventa più difficile, rivela alcuni punti di convergenza
+ con la contemporanea poetica ermetica. rottosi ogni rapporto tra gli scrittori e la realtà sociale,
+ la letteratura sembra chiudersi in se stessa. Lo stile di Montale si fa dunque più alto e più puro:
+ vengono abbandonati gli elementi prosastici e quotidiani e il simbolismo cede al
+ correlativo aggettivo, tuttavia, Montale rinuncia alla difesa dei valori umanistici, della civiltà
+ e della letteratura. Questa aspirazione è rapprentata dalla figura femminile che diventa il
+ destinatario privilegiato di molti componimenti.@linebreak{}
+ Essa assume il ruolo e la funzione che nella Divina Commedia è riservata a Beatrice. La donna alla
+ quale Montale si rivolge rappresenta la possibile "mediazione" verso quella verità che potrebbe
+ conferire senso all'esistenza. La sua presenza porta speranza.@linebreak{}
+ Questo libro si configura come quotidiana ricerca di un possibile riscatto dalla crescente barbarie.
+}
 @subsubsection[#:style 'hidden-number]{'(La bufera ed altro)}
+@para{
+ La terza raccolta di Montale, pubblicata nel 1956, comprende poesie scritte tra il 1940 e il 1954.
+ Il libro si aricola in 7 parti.@linebreak{}
+ tutti i testi furono scritti in anni densi di avvenimenti sia di carattere privato sia sul piano
+ storico.@linebreak{}
+ Montale aveva pensato di chiamare il libro @italic{Romanzo} in quanto la raccolta conteneva
+ spunti realistici. Nel 1956 il libro uscì con un titolo diverso che allude alla guerra,
+ @italic{La bufera}, ed ad altri avvenimenti ad essa correlati.@linebreak{}
+ Il cambiamento del titolo è devuto alla delusione post-bellica dell'autore che sperava in un
+ rinnovamento civile e morale.@linebreak{}
+ Nonostante ciò, un aspetto "ramanzesco" è presente anche in questo libro nel quale i
+ segni di degradazione e di violenza della realtà si intracciano con
+ l'amore per la donna salvatrice che compariva anche nelle Occasioni.@linebreak{}
+ Nelle poesie degli anni della guerra, la donna portatrice di valori si identifica con Clizia,
+ si tratta di Irma Branbeis, una giovane ebrea americana che Montale conosce nel 1933. Clizia conduce
+ chi la ama alla verità e alla poesia. Clizia è dunque la donna, "messaggera divina", figura
+ enigmatica e allegorica, le cui apparizioni coincidono con l'annuncio di un messaggio
+ di possibile salvezza per tutti. L'allegorismo umanistico delle Occasioni si trasforma in un
+ allegorismo in qualche modo religioso.@linebreak{}
+ Nella sezione @italic{Madrigali privati} il paesaggio dalla guerra al dopoguerra si intreccia
+ con la comparsa di una nuova figura femminile chiamata @bold{Volpe}. Si tratta della poetessa
+ Maria Luisa Spaziani, creatura terrestre che incarna l'eros e la passione, è l'anti-Beatrice per
+ eccellenza. Ai numerosi segni del volo caratteristici della donna salvatrice, si sostituiscono quelli
+ della caduta, dello sprofondamento, della contaminazione con una realtà terrena e inquietante.
+ Nel corso del libro si compie dunque il passaggio dall'angelico al terrestre.@linebreak{}
+ La fine di della speranza di una salvezza "per tutti", si esprimono nelle due liriche delle
+ @italic{Conclusioni provvisorie}. Montale ribadisce con orgoglio il valore della sua ricerca,
+ la fermezza con la quale ha tenuto vivi al tempo stesso la speranza di una possibile redenzione e i
+ valori della poesia e della civiltà, ma lo fa al passato. L'allegorismo religioso degli anni
+ della guerra si trasforma in un allegorismo apocalittico, dolorosamente senza speranze. 
+}
 @subsubsection[#:style 'hidden-number]{'(Satura e le ultime raccolte)}
-
+@para{
+ Pubblicata nel 1971 Satura comprende testi scritti a partire dal 1964. Le caratteristiche
+ principali della raccolta sono anticipate nel titolo latino che possiede un doppio significato:
+ quello corrente di "satira" intesa come irrisione dei vizi, e quello originario
+ che indica un genere letterario caratterizzato dalla mescolanza di temi e metri.@linebreak{}
+ In Satura si assiste ad un evidente dispersione tematica, a una struttura tematica essenzialmente
+ diaristica nella quale si moltiplicano eventi e personaggi collocati al livello del quotidiano.
+ L'obiettivo polemico principale della raccolta è il presente considerato dall'autore come
+ @italic{trionfo della spazzatura}, in cui domina la prosa e la poesia diviene marginale;
+ un presente in cui sembra chiuso ogni @italic{varco} e ogni possibile salvezza.@linebreak{}
+ L'allegorismo che aveva caratterizzato le opere precedenti tende ad assumere la forma
+ di un @italic{allegorismo vuoto}, che non possiede un quadro di valori di riferimento certi
+ e che non propone significati positivi.@linebreak{}
+ Solo la memoria può far riaffiorare personaggi capaci di elevarsi
+ al di sopra della quotidianità.@linebreak{}
+ Sul piano metrico si assiste ad un utilizzo dell'endecasillabo, e ad un corrispondente
+ aumento di versi più lunghi oppure brevi o brevissimi. Allo stesso modo diminuisce
+ l'incidenza delle rime che si limitano ora a quelle più facili, tipiche della forma ironica
+ e della filastrocca. Vi si trovano termini di uso molto comune, mentre il lessico più letterario
+ è adoperato soltanto in chiave ironica.@linebreak{}
+ La lunga carriera poetica di Montale sembra chiudersi con una sconfitta nella quale alcuni
+ studiosi hanno letto la crisi profonda dell'intera società occidentale.
+}
 
 
 @linebreak{}
