@@ -28,7 +28,8 @@ Table Of Contents
 
 @subsection[#:style 'hidden-number]{'(Racket)}
 @para{
- Racket è un dialetto Lisp e un discendente di Scheme. Sviluppato e disegnato dalla PLT Incorporated,
+ Racket è un dialetto Lisp e un discendente di Scheme. Sviluppato e disegnato dalla
+ @bold{PLT Incorporated},
  gruppo di ricerca che poco dopo è divenuto un progetto orientato alla produzione di materiale
  didattico per programmatori. fondato da Matthias Felleisen.
  Racket è general-purpouse ed uno dei suoi obiettivi è quello di essere una piattaforma per la
@@ -40,7 +41,7 @@ Table Of Contents
 @para{
  Racket è un derivato di Scheme, uno dei due dialetti principali della famiglia Lisp,
  sviluppato nel 1970 da Guy L. Steele e Gerald Jay Sussman. Anch'esso nato nel mondo accademico,
- viene usato nel libro SICP (Structure and Interpretation of Computer Programs) che per decenni
+ viene usato nel libro @bold{SICP} (Structure and Interpretation of Computer Programs) che per decenni
  è stato adottato da svariate università americane.
 }
 
@@ -49,15 +50,15 @@ Table Of Contents
  Lisp è una famiglia di linguaggi di programmazione la cui sintassi si distingue per il suo impiego
  della notazione infix e l'uso delle parentesi.
  È stato disegnato nel 1958 da John McCarthy, è quindi il secondo linguaggio di programmazione
- ampiamente usato preceduto solo dal fortran che è più vecchio di solo un anno.
+ ampiamente usato preceduto solo dal @bold{Fortran} che è più vecchio di solo un anno.@linebreak{}
  Lisp è stato creato come una pratica notazione matematica da usare nei programmi, si basa quindi
- sul lavoro di molti matematici quali Alonzo Church (noto per il lambda calcolo) e
- Albert Thoralf Skolem (noto per aver sviluppato la teoria delle funzioni ricorsive al fine di
- evitare i paradossi dell'infinito).
- Lisp è subito diventato subito il linguaggio più usato per l'AI (Inteligenza Artificiale).
- il suo nome significa LISt Processor e  sia il codice sorgente che i dati di un programma lisp sono
- composti da liste, sotto forma di s-expressions. questo permette alle macro di cambiare il codice
- sorgente durante la sua esecuzione.
+ sul lavoro di molti matematici quali @italic{Alonzo Church} (noto per il lambda calcolo) e
+ @italic{Albert Thoralf Skolem} (noto per aver sviluppato la teoria delle funzioni
+ ricorsive al fine di evitare i paradossi dell'infinito).@linebreak{}
+ Lisp è subito diventato subito il linguaggio più usato per l'@bold{AI} (Inteligenza Artificiale).
+ il suo nome significa LISt Processor e sia il codice sorgente che i dati di un programma lisp sono
+ composti da liste, sotto forma di @bold{s-expressions}.
+ Questo permette al programma di cambiare il codice sorgente durante la sua esecuzione.
  Lisp è stato un pioniere nelle idee dell'informatica, come le strutture ad albero, garbage
  collection, tipizzazione dinamica, condizionali, separazione dello scope, ricorsione,
  compilatore self-hosting, REPL.
@@ -65,11 +66,13 @@ Table Of Contents
 
 @subsubsection[#:style 'hidden-number]{'(Alonzo church)}
 @para{
- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
- labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
- nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
- esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
- culpa qui officia deserunt mollit anim id est laborum.
+ Alonzo Church, 1903-1995 matematico e logico statunitense, noto soprattutto per il Lambda Calcolo,
+ da lui sviluppato nel 1936. Ha mostrato l'esistenza di un "problema indecidibile"
+ che anticipò il lavoro del suo allievo @bold{Alan Turing} sull'@bold{halting problem}
+ rispondendo a una sfida di @bold{David Hilbert}.@linebreak{}
+ La tesi di Church-Turing che ne deriva afferma che tutti i formalismi Turing equivalenti
+ si equivalgono in potenza computazionale. Quindi tutto quello che non è computabile da una
+ macchina di Turing non è computabile da nessun altro formalismo a noi noto
 }
 
 
@@ -79,14 +82,15 @@ Table Of Contents
 @section[#:style 'hidden-number]{(Italiano "Eugenio Montale")}
 @subsection[#:style 'hidden-number]{'(Intro)}
 @para{
- Lisp, che è nato nel 1958 sembra essere stato dimenticato dagli attuali programmatori,
+ Lisp, che è nato nel 1958 sembra essere stato @bold{dimenticato} dagli attuali programmatori,
  che spesso preferiscono usare linguaggi più moderni. Tuttavia sono presenti nicchie di
- programmatori che ritengono fondamentale apprendere la programmazione funzionale
- e in particolare i dialetti lisp. Mi viene naturale fare un collegamento tra questi
- programatori e la linea antinovecentista, dove scrittori come Eugenio Montale a discapito
+ programmatori che ritengono fondamentale apprendere la @bold{programmazione funzionale}
+ e in particolare i dialetti lisp.@linebreak{}
+ Mi viene naturale fare un collegamento tra questi
+ programatori e la linea @bold{antinovecentista}, dove scrittori come Eugenio Montale a discapito
  delle avanguardie (Futurismo ed Ermetismo) che stavano rivoluzionando il modo di fare poesia
  vediamo l'utilizzo di stili e schemi appartenenti a tempi passati facendo sembrare la poesia di
- Montale non appartenente al secolo in cui sta scrivendo, ma appartenente al tempo passato.
+ Montale non appartenente al secolo in cui sta scrivendo, ma @italic{appartenente al tempo passato}.
 }
 @subsection[#:style 'hidden-number]{'(La vita)}
 @para{
@@ -94,15 +98,17 @@ Table Of Contents
  una ditta di importazione di prodotti chimici, nel 1905 fa costruire a Monterosso una villa nella
  quale la famiglia passerà le vacanze estive. Dopo gli studi tecnici, nel 1925, Montale consegue il
  diploma di ragioneria. Richiamato alle armi nel 1917 partecipa alle operazioni di guerra.@linebreak{}
- Nel 1925 esce OSSI DI SEPPIA, per le edizioni Gobetti. Nello stesso anno firma il Manifesto degli
- intellettuali antifascisti, di Benedetto Croce.@linebreak{}
+ Nel 1925 esce Ossi di seppia.@linebreak{}
+ Nello stesso anno firma il @bold{Manifesto degli intellettuali antifascisti},
+ di Benedetto Croce.@linebreak{}
  Negli anni successivi, Montale, collabora con varie riviste: in particolare, scrive alcuni articoli
- su Italo Svevo che contribuiranno alla scoperta dello scrittore.@linebreak{}
+ su @bold{Italo Svevo} che contribuiranno alla scoperta dello scrittore.@linebreak{}
  Nel 1927 il poeta ottiene un impiego a Firenze che gli consente di raggiungere l'indipendenza
  economica dalla famiglia. Poco dopo viene nominato direttore del Gabinetto
  scientifico-letterario Viesseux.@linebreak{}
  Nel 1927 conosce Drusilla Tauzi che diventerà la sua compagna e moglie.@linebreak{}
- Nel 1938 viene allontanato dal Gabinetto Viesseux perché rifiuta di iscriversi al partito fascista.
+ Nel 1938 viene allontanato dal Gabinetto Viesseux perché
+ @bold{rifiuta di iscriversi al partito fascista}.@linebreak{}
  Nel 1939 esce per Einaudi il libro delle Occasioni dedicato a
  Irma Brandeis, conosciuta nel 1933.@linebreak{}
  Tra il 1945 e il 1946 si iscrive al partito d'azione e ottiene un incarico culturale dal Comitato
@@ -113,8 +119,8 @@ Table Of Contents
  di poesie "La Bufera e altro" contiene testi che risalgono alla guerra e al dopoguerra.@linebreak{}
  La dolorosa perdita della moglie (1963) lo spinge a riprendere la scrittura poetica. Il quarto
  libro "Satura", sarà pubblicato nel 1971.
- Nel 1967 riceve dal Presidente della repubblica Saragat la nomina di senatore a vita, nel 1975
- il premio nobel per la letteratura.@linebreak{}
+ Nel 1967 riceve dal Presidente della repubblica Saragat la nomina di @bold{senatore a vita},
+ nel 1975 il @bold{premio nobel} per la letteratura.@linebreak{}
  La produzione dell'ultimo periodo comprende: Diario del 71 e del 72 (1973), Altri versi (1980).
  Nel 1980 esce l'edizione critica della sua intera produzione L'opera nei versi.@linebreak{}
  Montale muore a Milano il 12 settembre 1981.
@@ -124,13 +130,14 @@ Table Of Contents
  Le raccolte di Montale presentano caratteri molto diversi tra loro che nascono dalla naturale
  evoluzione della poetica montaliana, dalle diverse condizioni storiche nella quale si svolge e
  dal confronto con i principali movimenti letterari del secolo come il Simbolismo,
- l'ermetismo e il Neorealismo.@linebreak{}
+ l'@bold{Ermetismo} e il Neorealismo.@linebreak{}
  Le prime 3 raccolte hanno alla base una visione della vita amara, dominata dalla consapevolezza
- del tramonto di ogni sicurezza metafisica. Il mondo non ha senso e la vita umana è una pura
- casualità gettata in un universo senza Dio. L'unico dato tangibile è il dolore. Questa è una
+ del tramonto di ogni sicurezza metafisica.
+ @italic{Il mondo non ha senso e la vita umana è una pura casualità gettata in un universo senza Dio}.
+ L'unico dato tangibile è il dolore. Questa è una
  tematica molto utilizzata dagli autori del secolo, ma che in Montale assume una forma originale.
  Il suo radicale pessimismo non porta all'autocommiserazione, ma ad una profonda e disincantata
- accettazione del "Male di vivere".@linebreak{}
+ accettazione del "@bold{Male di vivere}".@linebreak{}
  La posizione di Montale si configura, dunque, come una scelta etica ed estetica.
  Etica perché l'insensatezza del mondo costituisce solo il punto di partenza di un insensata
  ricerca di risposte e di verità, ed è una scelta estetica perché il ruolo di Montale è quello
@@ -138,52 +145,54 @@ Table Of Contents
  La prima raccolta, Ossi di seppia, è l'espressione di un Io lirico introverso e bloccato, tra la
  fine delle illusioni dell'infanzia e un futuro incerto, in una condizione di impotenza
  e quasi di "paralisi".@linebreak{}
- La descrizione del paesaggio ligure riflettono tale condizione: il mare rappresenta l'infanzia,
- quel luogo in cui risiedeva la possibilità di rapporto armonico che nella vita adulta si è perduto
- per sempre; la terra, aspra e pietrosa, descritta con assoluta precisione, è luogo d'esilio,
- emblema di un irrimediabile " male di vivere", ma anche di un atteggiamento si asciutta fermezza.
+ La descrizione del paesaggio ligure riflettono tale condizione:@linebreak{}
+ il @bold{mare} rappresenta l'infanzia, quel luogo in cui risiedeva la possibilità di
+ rapporto armonico che nella vita adulta si è perduto per sempre;@linebreak{}
+ la @bold{terra}, aspra e pietrosa, descritta con assoluta precisione, è luogo d'esilio,
+ emblema di un irrimediabile "male di vivere", ma anche di un atteggiamento si asciutta fermezza.
  In "Le occasioni" il paesaggio ligure scompare, per riaffiorare in alcuni testi legati alla tematica
  della memoria. L'Io lirico appare sempre più senza centro e chiuso in se stesso, teso soprattutto
  a opporre il proprio oscuro lavoro in difesa della civiltà e della poesia.@linebreak{}
- L'attenzione dell'autore si volge dalla natura allo spazio interiore della memoria,
- ai talismani, ma soprattutto all'amore.@linebreak{}
+ L'attenzione dell'autore si volge dalla natura allo spazio interiore della @bold{memoria},
+ ai @bold{talismani}, ma soprattutto all'amore.@linebreak{}
  Ai personaggi femminili degli "Ossi di seppia", importanti ma non centrali, si sostituisce
- la donna che sarà chiamata poi Clizia. La funzione di Clizia nella struttura della raccolta,
+ la donna che sarà chiamata poi @bold{Clizia}.@linebreak{}
+ La funzione di Clizia nella struttura della raccolta,
  donna angelo, verrà accostata a quella della Beatrice di Dante.@linebreak{}
  La donna, per Montale, rappresenta la speranza che, nonostante tutto,
  alimenta la ricerca e la parola del poeta.@linebreak{}
- La figura di Clizia domina anche " La bufera e altro" e i valori positivi di cui è portatrice
+ La figura di Clizia domina anche "La bufera e altro" e i valori positivi di cui è portatrice
  si oppongono alle totali barbarie della Seconda Guerra Mondiale. Qui, l'Io lirico sospeso e
  perplesso delle "Occasioni" si concentra nella quasi religiosa attesa di una
  possibile salvezza per tutti.@linebreak{}
  Oppure, il poeta cerca nel colloquio con i propri morti quell'autenticità che non trova
  intorno a se. Ma a questi temi alti e sublimi si alternano anche temi più quotidiani e
  colloquiali che in parte anticipano la materia delle raccolte successive. Nella sezione dei
- "Madrigali privati" compare una nuova figura femminile, soprannominata Volpe, che, diversamente
- da Clizia, è una donna molto più "terrestre" e sensuale.
+ "Madrigali privati" compare una nuova figura femminile, soprannominata @bold{Volpe},
+ che, diversamente da Clizia, è una donna molto più "terrestre" e sensuale.
 }
 @subsection[#:style 'hidden-number]{'(Correlativo Oggettivo)}
 @para{
- Montale guadagnò rapidamente una dimensione internazionale aperta anche a quegli aspetti della
- letteratura e del pensiero europei che sfuggivano al  clima italiano. Si avvicinò così alla poesia
+ Montale guadagnò rapidamente una dimensione @bold{internazionale} aperta anche a quegli aspetti della
+ letteratura e del pensiero europei che sfuggivano al clima italiano. Si avvicinò così alla poesia
  francese e poi a quella anglosassone. Questa apertura europea gli consentì di comprendere grandi
  autori italiani, all'epoca, poco apprezzati come Saba e Svevo.@linebreak{}
  Nonostante ciò, Montale non esclude un rapporto intenso con la letteratura italiana.@linebreak{}
- Tra glia altri grandi autori Montale si confronta con Foscolo, Petrarca e Dante. Occorre, inoltre,
+ Tra gli altri grandi autori Montale si confronta con Foscolo, Petrarca e Dante. Occorre, inoltre,
  sottolineare che immagini e forme dell'immensa tradizione letteraria italiana sono riutilizzati da
- Montale in maniera funzionale, per introdurre nel linguaggio poetico contemporaneo uno scarto
+ Montale @bold{in maniera funzionale}, per introdurre nel linguaggio poetico contemporaneo uno scarto
  storico, differenziando la lingua poetica dal piatto e consueto linguaggio comune.@linebreak{}
  Secondo Montale, il rischio maggiore per la poesia deriva dalla moltiplicazione esponenziale di
  lunghe parole, suoni, immagini che si intrecciano quotidianamente sulla superficie del pianeta,
  a questa "saturazione". Egli reagisce in modo del tutto originale. Infatti egli si rifà a una
- tradizione poetica " non realistica, non romantica e nemmeno strettamente decadente" che egli
+ tradizione poetica "non realistica, non romantica e nemmeno strettamente decadente" che egli
  stesso definisce "metafisica".@linebreak{}
  Montale usava una tecnica particolare, definita "correlativo oggettivo".@linebreak{}
- Essa consiste nel rappresentare gli oggetti come emblemi del destino dell'uomo e della sua
+ Essa consiste nel rappresentare gli oggetti come @bold{emblemi del destino} dell'uomo e della sua
  condizione esistenziale. È una tecnica che porta a una forte concentrazione formale, ma anche
  a una certa "oscurità" e non a caso la sua poesia fu spesso associata, erroneamente, a quella
  ermetica. Erroneamente perché, diversamente dalla poesia ermetica, in quella di Montale, il poeta
- si limita ad esprimere l'oggetto, il dato esterno e reale assunto come emblema della
+ @italic{si limita ad esprimere l'oggetto}, il dato esterno e reale assunto come emblema della
  condizione esistenziale.@linebreak{}
  La sua poesia è difficile, ma non oscura e indefinita.@linebreak{}
  Per comprendere il rapporto che il poeta instaura tra l'oggetto e il suo significato è richiesta
@@ -203,7 +212,8 @@ Table Of Contents
  Il libro si articola in cinque sezioni: Movimenti, Ossi di seppia, Mediterraneo, Meriggi e ombre,
  Riviere.@linebreak{}
  Gli ossi di seppia sono resti di comuni animali marini che si trovano lungo le coste mediterranee e
- sono scelti da Montale come simbolo di una vita ridotta a una pura essenza minerale.@linebreak{}
+ sono scelti da Montale come @bold{simbolo} di una
+ vita ridotta a una pura essenza minerale.@linebreak{}
  In questo libro, definito un @italic{romanzo di formazione},
  si compie il passaggio dal mare alla terra;
  dal felice incanto dell'infanzia, all'età adulta. Una volta compiuto il distacco dal mare e
