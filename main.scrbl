@@ -10,10 +10,17 @@
 @larger{@bold{(Abstract)}}
 @para{
  http://racket-md5.tk@linebreak{}
- La mia tesina tratta di Racket, della sua storia, della sua infinita versatilità
+ Oggi tratterò di Racket, della sua storia, della sua infinita versatilità
  e della realizzazione dei miei due progetti che sono:@linebreak{}
  - L'implementazione dell'algoritmo md5@linebreak{}
  - La creazione del sito web racket-md5.tk@linebreak{}
+ Il percorso dopo una dovuta introduzione procede sulla figura antinovenocentista di
+ Eugenio montale, poi sulla creazione di un sito web che si connetta ad un database
+ e tramite la mia implementazione dell'algoritmo md5 permetta agli utenti di calcolare
+ digest di messaggi e provare a ricercare i digest all'interno di una lookup table.
+ Si parlerà dei test unitari e dei metodi proposti da Racket per documentare il software.
+ Quindi delle potenzialità infinite che Racket ha, e che lo rendono
+ il più vecchio tra i linguaggi del futuro
 }
 @linebreak{}
 
@@ -220,12 +227,12 @@ Table Of Contents
  dall'infanzia, la vita adulta comporta l'accettazione di uno @italic{sterile segreto}, del vuoto e
  dell'insensatezza che si celano dietro l'illusoria trama della vita "normale".@linebreak{}
  L'accettazione di tale @italic{sterile segreto} è per Montale, una scelta
- morale e dev'essere compiuta
- "senza viltà". La sua poesia è sempre attraversata da una fortissima tensione conoscitiva, da una
+ morale e dev'essere compiuta "senza viltà".@linebreak{}
+ La sua poesia è sempre attraversata da una fortissima tensione conoscitiva, da una
  volontà determinata a ricercare ovunque una possibile verità.@linebreak{}
  Di qui deriva anche quel @italic{delirio di nominare} di cui cui ha parlato Contini,
- ovvero un'attenzione
- straordinaria al paesaggio e ai suoi particolari, agli oggetti, alle cose più comuni, descritti con
+ ovvero un'attenzione straordinaria al paesaggio e ai suoi particolari,
+ agli oggetti, alle cose più comuni, descritti con
  estrema precisione analitica e lessicale.@linebreak{}
 }
 @subsubsection[#:style 'hidden-number]{'(Le occasioni)}
@@ -253,8 +260,8 @@ Table Of Contents
  Montale aveva pensato di chiamare il libro @italic{Romanzo} in quanto la raccolta conteneva
  spunti realistici. Nel 1956 il libro uscì con un titolo diverso che allude alla guerra,
  @italic{La bufera}, ed ad altri avvenimenti ad essa correlati.@linebreak{}
- Il cambiamento del titolo è devuto alla delusione post-bellica dell'autore che sperava in un
- rinnovamento civile e morale.@linebreak{}
+ Il cambiamento del titolo è devuto alla delusione post-bellica dell'autore che @bold{sperava} in un
+ @italic{rinnovamento civile e morale}.@linebreak{}
  Nonostante ciò, un aspetto "ramanzesco" è presente anche in questo libro nel quale i
  segni di degradazione e di violenza della realtà si intracciano con
  l'amore per la donna salvatrice che compariva anche nelle Occasioni.@linebreak{}
@@ -306,6 +313,8 @@ Table Of Contents
 
 @section[#:style 'hidden-number]{(Inglese "Creating a website")}
 @para{
+ Since I created a website using Racket I'm going to talk about the steps needed to create a website.
+ @linebreak{} 
  A website is a set of interconnected webpages, including a homepage, and other informations
 }
 @para{
@@ -492,3 +501,71 @@ Table Of Contents
  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
  culpa qui officia deserunt mollit anim id est laborum.
 }
+
+@linebreak{}
+
+@section[#:style 'hidden-number]{(References)}
+@para{
+ - @bold{Realm of Racket}, by Matthias Felleisen, David Van Horn, Conrad Barski, M.D.,
+ and Eight Students of Northeastern University@linebreak{}
+ 2013, ISBN-13: 978-1-59327-491-7@linebreak{}
+ @linebreak{}
+ - @bold{An Introduction to Functional Programming Through Lambda Calculus},
+ by Greg Michaelson@linebreak{}
+ 1998, ISBN-13: 978-0486478838@linebreak{}
+ @linebreak{}
+ - @bold{The Next HOPE (2010): Lisp, The Oldest Language of the Future}@linebreak{}
+ https://youtu.be/YwDpjDZOxF0@linebreak{}
+ @linebreak{}
+ - @bold{MIT 6.001 Structure and Interpretation, 1986}@linebreak{}
+ https://www.youtube.com/watch?v=2Op3QLzMgSY&list=PLE18841CABEA24090@linebreak{}
+ @linebreak{}
+ - qualche pagina su @bold{wikipedia}:@linebreak{}
+ https://en.wikipedia.org/wiki/Racket_(programming_language)@linebreak{}
+ https://en.wikipedia.org/wiki/Scheme_(programming_language)@linebreak{}
+ https://en.wikipedia.org/wiki/LISP@linebreak{}
+ https://en.wikipedia.org/wiki/Entscheidungsproblem@linebreak{}
+ https://en.wikipedia.org/wiki/Lambda_calculus@linebreak{}
+ https://en.wikipedia.org/wiki/Alonzo_Church@linebreak{}
+ https://en.wikipedia.org/wiki/Alan_Turing@linebreak{}
+ https://en.wikipedia.org/wiki/Hash_function@linebreak{}
+ https://en.wikipedia.org/wiki/Cryptographic_hash_function@linebreak{}
+ https://en.wikipedia.org/wiki/Md5@linebreak{}
+ https://en.wikipedia.org/wiki/Unit_testing@linebreak{}
+ @linebreak{}
+ - @bold{Official Racket Documentation}:@linebreak{}
+ https://docs.racket-lang.org@linebreak{}
+ https://docs.racket-lang.org/continue/index.html@linebreak{}
+ https://docs.racket-lang.org/web-server/index.html@linebreak{}
+ https://docs.racket-lang.org/xml/index.html@linebreak{}
+ https://docs.racket-lang.org/db/using-db.html@linebreak{}
+ https://docs.racket-lang.org/reference/generic-numbers.html@linebreak{}
+ https://docs.racket-lang.org/scribble/index.html@linebreak{}
+ https://docs.racket-lang.org/pollen/index.html@linebreak{}
+ @linebreak{}
+ - Varie implementazioni dell'md5 in più linguaggi
+ su @bold{Rosettacode}@linebreak{}
+ https://rosettacode.org/wiki/MD5/Implementation@linebreak{}
+ @linebreak{}
+ - IETF (Internet Engineering Task Force) @bold{RCF1321}@linebreak{}
+ http://www.ietf.org/rfc/rfc1321.txt@linebreak{}
+ @linebreak{}
+ - @bold{Dal testo al mondo vol.3}, by M.Magri e V.Vittorini@linebreak{}
+ 2012, ISBN: 9788839532213@linebreak{}
+ @linebreak{}
+
+ @linebreak{}
+ Il codice della mia implementazione dell'@bold{md5} è disponibile su:@linebreak{}
+ https://github.com/CastixGitHub/racket-md5.git@linebreak{}
+ Il codice del mio @bold{sito web} è disponibile su:@linebreak{}
+ https://github.com/CastixGitHub/racket-md5-website.git@linebreak{}
+ Ed è attualmente raggiungibile all'indirizzo http://racket-md5.tk@linebreak{}
+ Il codice che ha generato questa @bold{tesina} è disponibile su:@linebreak{}
+ https://github.com/CastixGitHub/racket-md5-tesina.git@linebreak{}
+ @linebreak{}
+ Tutti i link Risultano attivi e contentenenti le informazioni da me utilizzate
+ in data 02-07-2017. 
+}
+
+@linebreak{}
+ 
