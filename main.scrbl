@@ -1,6 +1,6 @@
 #lang scribble/base
 
-@(require scribble/core)
+@(require scribble/core scribble/example)
 
 @title{(LISP "The oldest programming language of the future")}
 @author{Castiglia Vincenzo}
@@ -495,12 +495,49 @@ Table Of Contents
 
 @section[#:style 'hidden-number]{(Matematica "Infinito")}
 @para{
- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
- labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
- nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
- esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
- culpa qui officia deserunt mollit anim id est laborum.
+ Secondo Aristotele non si può retrocedere né avanzare all’infinito ma si può
+ soltanto retrocedere e avanzare sempre di più, passo dopo passo. Egli escluderebbe
+ la possibilità di pensare i numeri naturali come un Uno, una collezione
+ infinita di elementi dati tutti insieme.@linebreak{}
+ Al giorno d'oggi sappiamo che non è così, ma questo pensiero è stato accettato
+ per due millenni. secondo Aristotele non si poteva parlare di infinito @bold{attuale},
+ ma solo di infinito @bold{potenziale}.@linebreak{}
+ Posso invece rappresentare la sequenza infinita dei numeri naturali tramite la procedura
+ in-naturals@linebreak{}
 }
+@examples[#:label #f (in-naturals)]
+@para{
+ E continuare trattandola quindi come un unico elemento, posso ad esempio costruire una lista
+ contentente tutti i quadrati perfetti dei numeri naturali. Posso quindi specificare un
+ limite a questo insieme, anche +inf.0 (symbol utilizzato da racket per rapresentare l'infinito)
+ che però finirà presto la memoria a disposizione a meno di usare tecniche di evalutazione lazy
+}
+@examples[#:label #f
+ (define (quadrati limit)
+   (for/list ([i (in-range limit)])
+     (expt i 2)))
+ (quadrati 9)
+ (quadrati 4)
+ (apply + (quadrati 4))]
+@para{
+ @bold{Aristotele} per primo utilizzò gli infinitesimi in un suo metodo per
+ trovare teoremi senza però dimostrarli. La stessa tecnica, scoperta solo nel 1906,
+ fu poi reinventata da Cavalieri.@linebreak{}
+ @bold{Galileo} si accorse che il modo di confrontare il
+ finito non andava bene per l'infinito.@linebreak{}
+}
+@examples[#:label "ad esempio"
+          (> +inf.0 (* 2 +inf.0))]
+@para{
+ Grazie a @bold{Cantor} adesso sappiamo che gli infiniti hanno diversa cardinalità e che ad esempio
+ l'insieme dei numeri reali ha un tipo di infinito superiore
+ rispetto a quello dei numeri naturali.@linebreak{}
+ @bold{Cohen} costruì un sistema formale soddisfacenti tutti gli ordinari assiomi della teoria
+ degli insiemi di Cantor tranne quello del continuo, dando vita al
+ metodo assiomatico ipotetico-deduttivo, trattando quindi
+ gli assiomi come semplici ipotesi.@linebreak{}
+}
+
 
 @linebreak{}
 
